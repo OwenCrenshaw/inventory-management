@@ -82,13 +82,13 @@ const Sidebar = () => {
         }`}
       >
         <div>Logo Photo</div>
-        {/* <Image
+        <Image
           src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
           alt="edstock-logo"
           width={27}
           height={27}
           className="rounded w-8"
-        /> */}
+        />
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
